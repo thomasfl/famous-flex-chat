@@ -326,7 +326,8 @@ define(function(require) {
             message: value,
             timeStamp: new Date().getTime()
         });
-        messageInputTextArea.focus();
+        // messageInputTextArea.focus();
+        messageInputTextArea.blur();
     }
 
     /**
